@@ -29,7 +29,8 @@ p, a {
 	height: 675px;
 }
 
-.affinitiesText {
+.affinitiesText h1 {
+	color: #00ffff;
 }
 
 .biomes {
@@ -41,7 +42,8 @@ p, a {
 	height: 675px;
 }
 
-.biomesText {
+.biomesText h1 {
+	color: #00ff00;
 }
 
 .equipment {
@@ -67,21 +69,63 @@ p, a {
 	float: right;
 }
 
-.equipmentText {
+.equipmentText h1 {
+	color: #ffff00;
 }
 
-.cyanText {
-	background-image: linear-gradient(to bottom right, #00ffff, #0000ff);
-	color: transparent;
-	background-clip: text;
+.monstersImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+}
+
+.monstersImages1, .monstersImages2 {
+	margin: auto;
+	width: 544px;
+	height: 675px;
+}
+
+.monstersImages1 {
+	float: left;
+}
+
+.monstersImages2 {
+	float: right;
+}
+
+.monstersText h1 {
+	color: #ff0000;
+}
+
+.pClasses {
+}
+
+.pClassesImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+}
+
+.pClassesText h1 {
+	color: #ff0080;
+}
+
+.goldText {
+	color: #ffc040;
 }
 
 .greenText {
-	background-image: linear-gradient(to bottom right, #ffff00, #00ff00, #00ffff);
-	color: transparent;
-	background-clip: text;
+	color: #00ff00;
 }
 
-.crusader {
-	color: #ff8000;
+.tealText {
+	color: #0080ff;
+}
+
+.violetText {
+	color: #8000ff;
+}
+
+.whiteText {
+	color: #ffffff;
 }
