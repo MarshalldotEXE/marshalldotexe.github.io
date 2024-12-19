@@ -7,7 +7,8 @@ html {
 body {
 	margin: auto;
 	width: 1280px;
-	background: #000020;
+	background-image: url("images/background.png");
+	background-color: #000020;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,44 +16,53 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-p, a {
+p {
 	color: #808080;
 	text-align: justify;
 }
 
-.affinities {
+a:link, a:visited {
+	color: #008000;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000000;
+	background: #ffffff;
 }
 
 .affinitiesImages {
 	margin: auto;
 	width: 1088px;
 	height: 675px;
+	border: 3px solid #404040;
 }
 
 .affinitiesText h1 {
 	color: #00ffff;
 }
 
-.biomes {
-}
-
 .biomesImages {
 	margin: auto;
 	width: 1088px;
 	height: 675px;
+	border: 3px solid #404040;
 }
 
 .biomesText h1 {
 	color: #00ff00;
 }
 
-.equipment {
+.downloadLink {
+	color: #ffffff;
+	text-align: center;
 }
 
 .equipmentImages {
 	margin: auto;
 	width: 1088px;
 	height: 675px;
+	border: 3px solid #404040;
 }
 
 .equipmentImages1, .equipmentImages2 {
@@ -77,6 +87,7 @@ p, a {
 	margin: auto;
 	width: 1088px;
 	height: 675px;
+	border: 3px solid #404040;
 }
 
 .monstersImages1, .monstersImages2 {
@@ -97,17 +108,19 @@ p, a {
 	color: #ff0000;
 }
 
-.pClasses {
-}
-
 .pClassesImages {
 	margin: auto;
 	width: 1088px;
 	height: 675px;
+	border: 3px solid #404040;
 }
 
 .pClassesText h1 {
 	color: #ff0080;
+}
+
+.title, .biomes, .equipment, .monsters, .pClasses, .affinities {
+	padding-top: 10%;
 }
 
 .goldText {
@@ -116,6 +129,10 @@ p, a {
 
 .greenText {
 	color: #00ff00;
+}
+
+.redText {
+	color: #ff0000;
 }
 
 .tealText {
