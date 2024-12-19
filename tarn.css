@@ -1,0 +1,87 @@
+html {
+	font-family: "Courier New", monospace;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+body {
+	margin: auto;
+	width: 1280px;
+	background: #000020;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	text-align: center;
+}
+
+p, a {
+	color: #808080;
+	text-align: justify;
+}
+
+.affinities {
+}
+
+.affinitiesImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+}
+
+.affinitiesText {
+}
+
+.biomes {
+}
+
+.biomesImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+}
+
+.biomesText {
+}
+
+.equipment {
+}
+
+.equipmentImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+}
+
+.equipmentImages1, .equipmentImages2 {
+	margin: auto;
+	width: 544px;
+	height: 675px;
+}
+
+.equipmentImages1 {
+	float: left;
+}
+
+.equipmentImages2 {
+	float: right;
+}
+
+.equipmentText {
+}
+
+.cyanText {
+	background-image: linear-gradient(to bottom right, #00ffff, #0000ff);
+	color: transparent;
+	background-clip: text;
+}
+
+.greenText {
+	background-image: linear-gradient(to bottom right, #ffff00, #00ff00, #00ffff);
+	color: transparent;
+	background-clip: text;
+}
+
+.crusader {
+	color: #ff8000;
+}
