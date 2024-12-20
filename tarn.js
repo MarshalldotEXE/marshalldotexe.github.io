@@ -3,11 +3,55 @@ var b = Math.floor(Math.random() * 7);
 var c = Math.floor(Math.random() * 5);
 var d = Math.floor(Math.random() * 7);
 var e = Math.floor(Math.random() * 7);
+var f = Math.floor(Math.random() * 7);
+var g = Math.floor(Math.random() * 7);
 changeBiome();
 changeEquipment();
 changeMonsters();
 changePClass();
 changeAffinity();
+changeGameplay();
+changeAtSign();
+
+function changeAtSign() {
+	var x = document.getElementsByClassName("atSign");
+	switch (g) {
+		case 0:
+			x[0].style.color = "#ff8000";
+			break;
+		case 1:
+			x[0].style.color = "#8000ff";
+			break;
+		case 2:
+			x[0].style.color = "#00ff00";
+			break;
+		case 3:
+			x[0].style.color = "#ff0080";
+			break;
+		case 4:
+			x[0].style.color = "#00ffff";
+			break;
+		case 5:
+			x[0].style.color = "#0000ff";
+			break;
+		default:
+			x[0].style.color = "#ffffff";
+			break;
+	}
+	g++;
+	if (g >= 7) {g = 0;}
+	setTimeout(changeAtSign, 1000);
+}
+
+function changeGameplay() {
+	var i;
+	var x = document.getElementsByClassName("game");
+	for (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+	x[f].style.display = "block";
+	f++;
+	if (f >= x.length) {f = 0;}
+	setTimeout(changeGameplay, 3000);
+}
 
 function changeBiome() {
 	var i;

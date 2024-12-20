@@ -83,6 +83,24 @@ a:hover, a:active {
 	color: #ffff00;
 }
 
+.gameplayImages {
+	margin: auto;
+	width: 1088px;
+	height: 675px;
+	border: 3px solid #404040;
+	background: #000000;
+}
+
+.gameplayImages img {
+	width: 1088px;
+	height: 675px;
+	object-fit: contain;
+}
+
+.gameplayText h1 {
+	color: #ff8000;
+}
+
 .monstersImages {
 	margin: auto;
 	width: 1088px;
@@ -119,8 +137,10 @@ a:hover, a:active {
 	color: #ff0080;
 }
 
-.title, .biomes, .equipment, .monsters, .pClasses, .affinities {
+.title, .biomes, .equipment, .gameplay, .monsters, .pClasses, .affinities {
 	padding-top: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .goldText {
@@ -145,4 +165,13 @@ a:hover, a:active {
 
 .whiteText {
 	color: #ffffff;
+}
+
+.yellowText {
+	color: #ffff00;
+}
+
+.atSign {
+	color: #ffffff;
+	background: #000000;
 }
