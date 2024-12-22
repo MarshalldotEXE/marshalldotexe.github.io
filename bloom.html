@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bloom</title>
+		<link rel="icon" type="image/x-icon" href="bloom.ico">
+		<link rel="stylesheet" href="bloom.css">
+	</head>
+	<body>
+		<div class="title">
+			<h1 class="pinkText">Bloom</h1>
+			<p><span class="pinkText">Bloom</span> was a text-based role-playing game developed as a passion project.</p>
+			<p>The game was played through a Discord bot, the code itself written using the help of the <a href="https://discordpy.readthedocs.io/en/stable/">discord.py</a> API wrapper. A player would send commands through the respective text channels or add reactions to the bot's returned messages to view their inventory, find and attack monsters, and travel the world map.</p>
+		</div>
+		<div class="section">
+			<h1 class="greenText">Your Character</h1>
+			<div class="box">
+				<div class="left">
+					<p>A player must be registered with one of the five character classes to run commands.</p>
+					<p>Each class has access to seven unique flower moves, which deal nonphysical damage, cost <span class="cmdText">FP</span> (Flower Points, a kind of mana) to use, and are acquired as the player levels up.</p>
+					<p>Every class also varies in the scaling of their stats as they level up, as indicated by the number of stars.</p>
+				</div>
+				<div class="images">
+					<img class="pClass" src="images/bloom/pclasses/gardener.png">
+					<img class="pClass" src="images/bloom/pclasses/occultist.png">
+					<img class="pClass" src="images/bloom/pclasses/gunslinger.png">
+					<img class="pClass" src="images/bloom/pclasses/alchemist.png">
+					<img class="pClass" src="images/bloom/pclasses/dragoon.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img src="images/bloom/equipment.png">
+				</div>
+				<div class="right">
+					<p>You can equip some number of weapons, up to two rings, and one neckpiece item to customize your character.</p>
+					<p>Primarily, weapons affect the damage you deal with your physical attack and rings apply a small buff to your stats.</p>
+					<p>Every neckpiece has a unique effect that activates during battle.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="left">
+					<p>The advantages of flower moves vary between classes.</p><p>While the occultist and dragoon are designed to overpower enemies with powerful magic attacks, the gardener and alchemist enjoy more vast elemental support.</p><p>On the other hand, the gunslinger is lacking in magical capabilities.</p>
+				</div>
+				<div class="images">
+					<img src="images/bloom/flower.png">
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<h1 class="blueText">The World</h1>
+			<div class="box">
+				<div class="left">
+					<p>Once a player registers with a class, they can open the world map, allowing them to move to nearby map tiles one at a time.</p>
+					<p>Some map tiles contain shops, inns, and other features, but monsters may be encountered at every instance they move.</p>
+				</div>
+				<div class="images">
+					<img class="map" src="images/bloom/maps/map2.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="map" src="images/bloom/maps/map3.png">
+				</div>
+				<div class="right">
+					<p>Monsters become more and more dangerous as you move farther from the spawnpoint.</p>
+					<p>The areas transition from an overgrown cliffside, to a snowed-over jungle, an abandoned highway, and to a long-lost castle town.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="left">
+					<p>Defeating monsters rewards you with bolts, the game's primary currency.</p>
+					<p>Bolts are important since they are required to purchase higher-level weapons and healing items for your character.</p>
+				</div>
+				<div class="images">
+					<img class="map" src="images/bloom/shop3.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="map" src="images/bloom/inn.png">
+				</div>
+				<div class="right">
+					<p>Bolts are also used to safely heal in towns without the need to purchase healing items for use outside of combat.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<h1 class="redText">Combat</h1>
+			<div class="box">
+				<div class="left">
+					<p>When you enter a battle, you will see only the names of your enemies and the names and condition of your allies.</p>
+					<p>The players and monsters act in descending order of their <span class="cmdText">AGI</span> stats, performing some attack, using an item, or defending.</p>
+				</div>
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/encounter.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/attack3.png">
+				</div>
+				<div class="right">
+					<p>A physical attack involves you attacking with your wielded weapon.</p>
+					<p>The damage of these attacks scale positively with your <span class="cmdText">STR</span> stat and negatively with your target's <span class="cmdText">SYN</span> stat.</p>
+				</div>
+			</div>
+			<div class="box">
+				<div class="left">
+					<p>A flower move involves you invoking one of your special abilities.</p>
+					<p>These attacks are usually more powerful than your physical attacks, but cost <span class="cmdText">FP</span> to use.</p>
+					<p>The damage of these attacks scale positively with your <span class="cmdText">ATN</span> stat and negatively with your target's <span class="cmdText">WIL</span> stat.</p>
+				</div>
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/attack1.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/attack2.png">
+				</div>
+				<div class="right">
+					<p>Alternatively, some flower moves will not deal damage at all, instead providing some sort of buff to you or some of your allies.</p>
+					<p>If an enemy is known to play more defensively on their turns, it may be more beneficial to increase your damage or critical hit ratio on your next turn.</p>
+				</div>
+			</div><div class="box">
+				<div class="left">
+					<p>Consumable items in your inventory can also be used to restore your <span class="cmdText">HP</span> or <span class="cmdText">FP</span> in a pinch, cure poison, or increase your stats temporarily.</p>
+				</div>
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/item.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/defend.png">
+				</div>
+				<div class="right">
+					<p>Defending is the act of preparing to be hit by every attack until your next turn.</p>
+					<p>While defending, you take half the amount of damage from all attacks, and you have a chance to take zero damage from any attack.</p>
+				</div>
+			</div><div class="box">
+				<div class="left">
+					<p>Beware of walking into dangerous areas while you are under-leveled.</p>
+					<p>Many higher-level enemies will not only be able to attack you before you are able to react, but also deal heavy enough damage to instakill you on their first turn.</p>
+					<p>As a penalty for dying, you lose a small amount of <span class="cmdText">EXP</span> and money.</p>
+				</div>
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/dead.png">
+				</div>
+			</div>
+			<div class="box">
+				<div class="images">
+					<img class="combat" src="images/bloom/combats/levelup.png">
+				</div>
+				<div class="right">
+					<p>Defeating all enemies in a combat encounter rewards you with <span class="cmdText">EXP</span>.</p>
+					<p>Acquiring enough <span class="cmdText">EXP</span> will advance your level, increasing your stats and unlocking new flower moves and equipable items.</p>
+				</div>
+			</div>
+		</div>
+		<h6>© 2020-2021 "MarshalldotEXE." All rights reserved.</h6>
+		<script src="bloom.js"></script>
+	</body>
+</html>

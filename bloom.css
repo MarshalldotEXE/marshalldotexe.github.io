@@ -1,0 +1,85 @@
+html {
+	font-family: "gg sans", "Helvetica Neue", Helvetica, Arial;
+	font-size: 24px;
+}
+
+body {
+	margin: auto;
+	width: 1280px;
+	background: #111214;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ffffff;
+	text-align: center;
+}
+
+p {
+	color: #DBDEE1;
+	text-align: left;
+}
+
+a:link, a:visited {
+	color: #05AAFC;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #05AAFC;
+	text-decoration: underline;
+}
+
+.title, .section {
+	padding: 5%;
+}
+
+.title {
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background: #1E1F22;
+}
+
+.section {
+	background: #313338;
+}
+
+.box {
+	display: flex;
+}
+
+.left {
+	padding-right: 5%;
+}
+
+.right {
+	padding-left: 5%;
+}
+
+.images {
+	text-align: center;
+}
+
+.pinkText {
+	color: #ff99cc;
+}
+
+.greenText {
+	color: #66ff99;
+}
+
+.redText {
+	color: #FF3333;
+}
+
+.blueText {
+	color: #6699ff;
+}
+
+.cmdText {
+	font-family: "Courier New", monospace;
+	font-size: 24px;
+	font-weight: bold;
+	background: #1E1F22;
+	padding-left: 5px;
+	padding-right: 5px;
+}
