@@ -40,6 +40,8 @@ a:hover, a:active {
 }
 
 .section {
+	border-radius: 5px;
+	border-top: 1px solid #3F4147;
 	background: #313338;
 }
 
@@ -59,7 +61,7 @@ a:hover, a:active {
 	text-align: center;
 }
 
-.pinkText {
+.bloomText {
 	color: #ff99cc;
 }
 
@@ -73,6 +75,26 @@ a:hover, a:active {
 
 .blueText {
 	color: #6699ff;
+}
+
+.orangeText {
+	color: #ff9966;
+}
+
+.violetText {
+	color: #9966ff;
+}
+
+.pinkText {
+	color: #ff6699;
+}
+
+.goldText {
+	color: #ffcc33;
+}
+
+.discordText {
+	color: #5662F6;
 }
 
 .cmdText {
