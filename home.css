@@ -1,0 +1,103 @@
+html {
+	font-size: 24px;
+}
+
+body {
+	margin: auto;
+	background: #000000;
+	color: #ffffff;
+	text-align: center;
+}
+
+.box {
+	margin: auto;
+	width: 1280px;
+}
+
+.mainBlock {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.tarnBlock {
+	font-family: "Courier New", monospace;
+	font-size: 24px;
+	font-weight: bold;
+	background-image: url("images/tarn/background.png");
+	background-color: #000020;
+	padding: 1%;
+	border: 3px solid #404040;
+	border-left: none;
+	border-right: none;
+}
+
+.tarnBlock h1, .tarnBlock h2,
+.tarnBlock h3, .tarnBlock h4,
+.tarnBlock h5, .tarnBlock h6 {
+	color: #ffc040;
+	text-align: center;
+}
+
+.tarnBlock p {
+	color: #808080;
+	text-align: justify;
+}
+
+.tarnBlock a:link, .tarnBlock a:visited {
+	color: #008000;
+	text-decoration: none;
+}
+
+.tarnBlock a:hover, .tarnBlock a:active {
+	color: #000000;
+	background: #ffffff;
+}
+
+.bloomBlock {
+	font-family: "gg sans", "Helvetica Neue", Helvetica, Arial;
+	font-size: 24px;
+	background: #1E1F22;
+	padding: 1%;
+	border: 3px solid #111214;
+	border-left: none;
+	border-right: none;
+}
+
+.bloomBlock h1 {
+	color: #ff99cc;
+	text-align: center;
+}
+
+.bloomBlock h2, .bloomBlock h3,
+.bloomBlock h4, .bloomBlock h5,
+.bloomBlock h6 {
+	color: #ffffff;
+	text-align: center;
+}
+
+.bloomBlock p {
+	color: #DBDEE1;
+	text-align: left;
+}
+
+.bloomBlock a:link, .bloomBlock a:visited {
+	color: #05AAFC;
+	text-decoration: none;
+}
+
+.bloomBlock a:hover, .bloomBlock a:active {
+	color: #05AAFC;
+	text-decoration: underline;
+}
+
+.whiteText {
+	color: #ffffff;
+}
+
+.bloomText {
+	color: #ff99cc;
+}
+
+.discordText {
+	color: #5662F6;
+}
