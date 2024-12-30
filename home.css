@@ -4,6 +4,7 @@ html {
 
 body {
 	margin: auto;
+	width: 1280px;
 	background: #000000;
 	color: #ffffff;
 	text-align: center;
@@ -11,12 +12,14 @@ body {
 
 .box {
 	margin: auto;
-	width: 1280px;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 .mainBlock {
-	padding-top: 5%;
+	padding-top: 10%;
 	padding-bottom: 5%;
+	background-color: #101010;
 }
 
 .tarnBlock {
@@ -25,7 +28,6 @@ body {
 	font-weight: bold;
 	background-image: url("images/tarn/background.png");
 	background-color: #000020;
-	padding: 1%;
 	border: 3px solid #404040;
 	border-left: none;
 	border-right: none;
@@ -57,7 +59,6 @@ body {
 	font-family: "gg sans", "Helvetica Neue", Helvetica, Arial;
 	font-size: 24px;
 	background: #1E1F22;
-	padding: 1%;
 	border: 3px solid #111214;
 	border-left: none;
 	border-right: none;
