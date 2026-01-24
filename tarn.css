@@ -137,7 +137,12 @@ a:hover, a:active {
 	color: #ff0080;
 }
 
-.title, .biomes, .equipment, .gameplay, .monsters, .pClasses, .affinities {
+.title {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.biomes, .equipment, .gameplay, .monsters, .pClasses, .affinities {
 	padding-top: 10%;
 	padding-left: 5%;
 	padding-right: 5%;
