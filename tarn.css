@@ -31,6 +31,12 @@ a:hover, a:active {
 	background: #ffffff;
 }
 
+.titleImage {
+	margin: auto;
+	width: 1140px;
+	height: 616px;
+}
+
 .affinitiesImages {
 	margin: auto;
 	width: 1088px;
