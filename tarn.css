@@ -8,12 +8,17 @@ body {
 	margin: auto;
 	width: 1280px;
 	background-image: url("images/tarn/background.png");
-	background-color: #000020;
+	background-color: #080808;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
 	color: #ffffff;
 	text-align: center;
+}
+
+h3 {
+	color: #ffc040;
+	text-align: left;
 }
 
 p {
@@ -180,6 +185,22 @@ a:hover, a:active {
 
 .yellowText {
 	color: #ffff00;
+}
+
+.cyanText {
+	color: #00ffff;
+}
+
+.blueText {
+	color: #0000ff;
+}
+
+.pinkText {
+	color: #ff0080;
+}
+
+.orangeText {
+	color: #ff8000;
 }
 
 .atSign {
