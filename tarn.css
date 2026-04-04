@@ -11,8 +11,13 @@ body {
 	background-color: #080808;
 }
 
-h1, h2, h4, h5, h6 {
+h1, h2, h4, h6 {
 	color: #ffffff;
+	text-align: center;
+}
+
+h5 {
+	color: #808080;
 	text-align: center;
 }
 
