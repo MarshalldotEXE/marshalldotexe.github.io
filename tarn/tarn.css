@@ -7,16 +7,11 @@ html {
 body {
 	margin: auto;
 	width: 1280px;
-	background-image: url("images/tarn/background.png");
+	background-image: url("images/background.png");
 	background-color: #080808;
 }
 
-h1, h2, h4, h6 {
-	color: #ffffff;
-	text-align: center;
-}
-
-h5 {
+h1, h2, h4, h5, h6 {
 	color: #808080;
 	text-align: center;
 }
@@ -31,6 +26,16 @@ p {
 	text-align: justify;
 }
 
+th, td {
+	color: #808080;
+	text-align: left;
+}
+
+th {
+	color: #FFFFFF;
+	padding-bottom: 1%;
+}
+
 a:link, a:visited {
 	color: #008000;
 	text-decoration: none;
@@ -39,6 +44,10 @@ a:link, a:visited {
 a:hover, a:active {
 	color: #000000;
 	background: #ffffff;
+}
+
+.backButton {
+	text-align: left !important;
 }
 
 .titleImage {
@@ -70,7 +79,7 @@ a:hover, a:active {
 }
 
 .downloadLink {
-	color: #ffffff;
+	color: #808080;
 	text-align: center;
 }
 
@@ -158,7 +167,7 @@ a:hover, a:active {
 	padding-right: 5%;
 }
 
-.biomes, .equipment, .gameplay, .monsters, .pClasses, .affinities {
+.biomes, .equipment, .gameplay, .monsters, .pClasses, .affinities, .downloads {
 	padding-top: 10%;
 	padding-left: 5%;
 	padding-right: 5%;
