@@ -1,0 +1,59 @@
+New content:
+
+- Added game saving and loading, accessible through the menu or by pressing uppercase 'Q'. Autosaves are also attempted every 900 turns or so.
+- Added the dungeon overview, accessible through the menu or by pressing uppercase 'O'. The dungeon overview allows you to see revealed or magic mapped levels and their contents, including biomes, stairways, locked doors, and vaults.
+- Added some new enemies and special levels
+- Screenshots can be taken by pressing 'F2'.
+- Fullscreen can be toggled by pressing 'F11'.
+- The Warden of Yendor is much more dangerous.
+
+
+Gameplay changes:
+
+- The otherworldly darkness now affects all previous floors (at normal rate) and all floors down to your deepest level (at halved rate).
+- Returning to previous floors that have been affected by the otherworldly darkness unknown to the player now displays a message.
+- Armor damage reduction no longer scales with upgrades.
+- Special armors now only increment their evasion on odd-numbered upgrades and their passive on even-numbered upgrades.
+- Some new keyholders and vestibules have been added.
+- Monster spawn rates, fire, gases, freezable terrain, and meltable terrain are now affected by the temperature and humidity of the level biome.
+- Experience is gained faster on deeper floors and slower on shallower floors.
+- When digging with a pickaxe, a progress bar will appear. Keep digging until the progress bar completes to destroy a wall.
+- "Aura of Light" now restores 1 HP to the player per hit. "Bursting Aura" increases this to 2 HP.
+- "Hyper Cutter" now deals extra damage against lowercase monsters, rather than unarmored monsters.
+- "Battle Armor" reduces damage by 0-8 points.
+- "Battle Armor" reduces damage by 0-8 points.
+- "Cast Lightning" replaces the old "Cast Spark".
+- "Battle Magic" (new affinity) replaces the old "Cast Lightning" and increases the homunculi's spell damage.
+- Homunculi take a little longer to spawn.
+- Killstreaks are now only incremented from direct kills and don't last as long.
+- Adjusted how fire spreads to nearby tiles.
+- Decreased item spawn rates.
+- The crafting menu shows how many materials will be required to craft an item.
+- Charm now works properly.
+- Allies only move towards enemies in the player's direct LOS.
+- Allies now have a blue label when displayed on the left sidebar
+- Phantom blades and other one-HP enemies no longer display on the left sidebar.
+- Herbalism effects scale more strongly.
+
+
+Interface changes:
+
+- Hovering over the player now displays information regarding health, experience, stealth, etc.
+- Pickaxes now display information about their digging ability. Iron pickaxes dig faster than wood pickaxes, and silver and gold pickaxes dig faster than iron pickaxes.
+- The messages for reaching depths 13 and 26 now require an acknowledgement.
+- Added a message for being petrified which requires an acknowledgement.
+- Hovering over any interesting object on the map now displays it in the left sidebar.
+- Linux versions save game data in "user.home".
+- Monsters and items standing in confusion gas are darkened to make them more visible.
+- Adjusted some message colors.
+
+
+Bugfixes:
+
+- Killstreaks now properly only have benefits when killing two or more enemies.
+- "Arcane Battery" now properly only affects wands (and no longer charms).
+- Charms no longer cost 2 turns to use.
+- Standardized the consequences of many direct attacks or kills, such as removing paralysis or other effects.
+- Keys now display their depth properly.
+- Fixed some bugs related to item identification.
+- Fixed some bugs related to monsters levitating and items floating in the water not responding to terrain.
