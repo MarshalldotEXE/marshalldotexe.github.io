@@ -21,7 +21,6 @@ Gameplay changes:
 - "Aura of Light" now restores 1 HP to the player per hit. "Bursting Aura" increases this to 2 HP.
 - "Hyper Cutter" now deals extra damage against lowercase monsters, rather than unarmored monsters.
 - "Battle Armor" reduces damage by 0-8 points.
-- "Battle Armor" reduces damage by 0-8 points.
 - "Cast Lightning" replaces the old "Cast Spark".
 - "Battle Magic" (new affinity) replaces the old "Cast Lightning" and increases the homunculi's spell damage.
 - Homunculi take a little longer to spawn.

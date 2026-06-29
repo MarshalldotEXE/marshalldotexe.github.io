@@ -1,0 +1,77 @@
+New Content:
+
+- Cavern levels may now contain caged items, special altars, or monsters and their respective keyholders
+- Many more types of keyholders and vestibules have been added:
+  - Burning grass rooms
+  - Piranha/salamander trap rooms
+  - Caustic gas trap rooms
+  - Sacrificial altar rooms
+  - Electric crystal rooms
+  - Pink/purple/red crystal rooms
+  - Crumbling floor rooms
+  - Barricaded areas
+  - Paralysis trap areas
+  - Dewar trap areas
+  - Thieving monster areas
+- Three new melee weapons:
+  - Kyoketsu-shoge:      middle-tier dagger, +3 range and sneak attack bonus
+  - Kusarigama:          middle-tier scythe, +3 range but no arc slash
+  - Three-headed flails: middle-tier bludgeon, auto-attacks when moving and hits three times but attacks very slowly
+- Curse enchantments have been added:
+  - Weapons of aggravation, infection, mercy, plenty, vanishing, polymorphism, and teleportation
+  - Armor of immolation, hypothermia, electrocution, crystallization, pestilence, repulsion, and displacement
+  - Slaying enchantments for armor
+  - Immunity enchantments for weapons
+- Two new enemies
+- Two new gamemodes:
+  - Explore Mode: Take 1/5 as much damage (score is not saved)
+  - Wizard Mode: Take no damage and start with powerful items (score is not saved)
+
+
+UI Changes:
+
+- Saved games now show the class, level, depth, turn number, and game mode
+- An Affinities button now shows in the bottom-left corner for non-Deprived characters
+- When hovering over giant monsters, all of their glyphs are now highlighted
+- Empty levels composed entirely of rock are now specifically called "Level Boundaries"
+- Throwing clubs have been renamed to throwing hammers
+- Rewritten some monster descriptions and wrote descriptions for monsters that previously had none
+- Rewritten some misleading/obsolete weapon descriptions
+
+
+Gameplay Changes:
+
+- Level generation has been made more efficient and less buggy
+- The first level now always contains a vault
+- Brick walls and statues appear in more rooms
+- Some keyholders and vestibules no longer spawn in cold or dry biomes
+- Turret vestibules and keyholders contain stronger turrets
+- Entrances to depth 13 and depth 26 no longer appear next to each other
+- The initial level of depth 13 has been given a makeover
+- The downstairs on depth 13 appear much more frequently
+- The walls of depth 26 now change periodically
+- The upstairs and downstairs on depths 32-34 appear slightly less frequently
+- A few depths are now more populated with torches, statues, and flavor machines
+- Liquid generation per depth has been adjusted
+- Item generation per depth has been adjusted
+- Monster generation per depth has been adjusted
+- The two final affinities in the Smithing tree now instead allow you to craft enchanted items (the removed affinities will be moved to the Tinkering tree in a later update)
+- Magician conducts are no longer failed if you can't see the monster
+- Electrified weapons no longer scale with upgrades
+- Illusory slip now only reduces damage to 5
+- Incendiary darts now spawn a huge flash of light for one turn
+- Throwing weapons can now spawn upgraded or enchanted
+- Upgraded throwing weapons have less of a chance to break
+- Adjusted the varieties of slaying/immunity enchantments
+- Forest drakes have been replaced with griffins to better fit the animal forest theme
+
+
+Bugfixes:
+
+- Fixed carried items and buffs not loading from saves
+- Fixed swapper keyholders spawning too often
+- Fixed the upstairs on depth 14 not working in certain cases
+- Fixed a crash related to monsters casting bursts of thunder
+- Fixed a crash related to casting spells of regrowth on depth 26
+- Fixed many cases of monsters' names not being randomized while hallucinating
+- Fixed elf arachnomancers not spawning spiders
